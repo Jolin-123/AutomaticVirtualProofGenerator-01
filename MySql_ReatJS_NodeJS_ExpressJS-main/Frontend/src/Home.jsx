@@ -6,12 +6,18 @@ import folddingTT from './images/folddingTT.png';
 import hangingT from './images/hangingT.png';
 import hangingTgray from './images/hangingTgray.png';
 
+import Snowfall from './Snowfall';
+import SnowfallLarge from './SnowfallLarge';
+
 
 
 function Home() {
   return (
     <div>
         {/* Home */}
+        {/* <CookieCursor/> */}
+        <SnowfallLarge/>
+        <Snowfall/>
              <div>
             <header> 
                 <button className="menu"> &#9776;</button>
