@@ -1,0 +1,305 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eee;
+    margin: 0;
+    padding: 20px;
+    height:100%;
+  }
+
+  
+.display_container {
+  flex: 1;
+  margin: 50px 60px;
+}
+
+  .form-container {
+    position:absolute;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 100vh;
+    color:#4e4e4e;
+    margin-left: 30px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  table, th, td {
+    border: 1px solid #dddddd;
+  }
+
+  th, td {
+    padding: 2px;
+    text-align: left;
+    border-bottom: 3.5px solid rgb(167, 186, 211);
+  }
+
+  th {
+    background-color: rgb(196 214 237);
+    font-weight: bolder;
+  }
+
+  .header,
+  .top-part,
+  .screen-info {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+   .top-part{ 
+     margin-bottom: 30px;
+   }
+
+  .screen-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+  }
+
+  .screen-block {
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    vertical-align: center; 
+    align-items: center;
+  }
+
+  .color-block {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid #000;
+    margin-right: 5px;
+  }
+
+  .input-field {
+         display: flex;
+        align-items: center; /* This ensures vertical centering of items in the flex container */
+        margin-bottom: 10px;
+  }
+
+.input-field p {
+ margin-left: 10px;
+}
+
+  
+  .submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+  }
+
+  .image-container {
+    width: 50px;
+    height: 100px;
+    margin-top: 20px;
+    
+  }
+
+  .display-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  
+/* Style for options  */
+   .options-container {
+    margin-bottom: 10px;
+  }
+
+  .options-container label {
+    margin-right: 15px;
+  }
+
+  /* This will put space between the radio button and the label */
+  .options-container input[type="radio"] {
+    margin-right: 5px;
+  }
+
+  /* This style is for horizontal alignment */
+  .options-container .option-item {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  .color-block
+  {
+    width: 65px;
+    height: 40px;
+    font-size: 12px;
+    align-items: center;
+    color:rgb(83, 83, 83);
+
+  }
+
+  .color-block-back
+  {
+    width: 40px;
+    height: 45px;
+    color: none;
+    border:none; 
+
+  }
+
+  .tshirt-container{
+    margin-left: 195px ;
+    margin-top: 10px;
+  }
+
+  .logo-container{
+    margin-left: 1px ;
+    margin-top: -13px;
+    border: black 1px solid;
+    width: 50px;
+    height: 80px;
+  }
+
+  .desc_containe{
+    font-size: 10px;
+    font-weight: bold;
+    border: black 1px solid;
+    margin-top: -2px;
+    width: 100px;
+  }
+
+  .mid-session{
+    margin: 10px; 
+  }
+
+.color-rec{
+    width: 100px;
+    height: 50px;
+    display: inline;
+    color: gray;
+}
+
+
+#myContainer{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#myAnimation {
+    position: absolute;
+    margin-left: 135px;
+    margin-top: -255px;
+    border: none !important; 
+    /* Add !important to override any other styles */
+}
+
+/* 09/23/2024 */
+
+.proof_generator_page_main {
+  margin: 40px;
+  color: #5c8edd;
+  font-size: 16px;
+  font-weight: bolder;
+  width: 300px;
+}
+
+.proof_generator_page_main h2 {
+  margin-bottom: 40px;
+}
+
+
+.proof_generator_page_inputnum input {
+  margin-left: 20px;
+  border: none;
+  background: #becae7;
+  height: 28px;
+  width: 130px;
+
+  font-weight: bolder;
+  font-size: 20px;
+  color: #434347;
+  border-radius: 25px;
+  padding: 12px;
+  margin: 18px 0;
+}
+
+.proof_generator_page_inputnum label {
+  font-size: 18px;
+}
+
+.proof_generator_page_inputnum p {
+  font-size: 14px;
+}
+
+.proof_generator_page_position{
+  margin: 20px -10px;
+  font-size: 20px;
+  color: rgb(204 154 57 / 80%);
+}
+
+.proof_generator_page_size {
+  margin: 20px -10px;
+  color: rgb(156, 179, 140);
+  font-size: 20px;
+  
+}
+
+.proof_generator_page_position label,
+.proof_generator_page_size label {
+    margin-left: -20px;  /* Adds 5px of space between the input and the label */
+}
+
+.proof_generator_page_position input {
+    margin-left: -10px;  /* Adds 5px of space between the input and the label */
+}
+
+.proof_generator_page_size input {
+  margin-left: -10px;  /* Adds 5px of space between the input and the label */
+}
+/* margin-left: 20px;
+margin-top: -15px; */
+
+.detial_button{
+  margin:10px 0px 15px;
+}
+
+
+
+/* grid for two main part of the page  */
+.proof_generator_page_main { /* Maintain the same background color */
+  padding: 20px; /* Add some padding around the main container */
+  border-radius: 20px; /* Optional: Rounded corners */
+}
+
+.proof_generator_content_wrapper {
+  display: grid;
+  grid-template-columns: auto auto ;
+  padding: 10px;
+  gap: 20px; /* Optional: Space between the columns */
+
+}
+
+.proof_generator_page_inputnum {
+  display: flex; /* Allow flexbox for vertical stacking inside */
+  flex-direction: column; /* Stack items vertically */
+  padding: 20px; /* Add padding for visual spacing */
+  background-color:  rgb(203, 222, 247);; /* Background color for input section */
+  border-radius: 20px; /* Optional: Rounded corners */
+  margin-top: 50px;
+  align-items: center;
+
+  min-height: 200px;
+  /* Optional */
+}
+
+
+
+

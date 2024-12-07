@@ -1,0 +1,109 @@
+
+.signin_main {
+    background: rgb(188 208 233);
+    margin: 100px 200px 200px;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    align-content: center;
+    padding: 30px;
+
+    display: flex;
+    justify-content: center; /* Center content horizontally within the div */
+    align-items: center; /* Center content vertically within the div */
+    flex-direction: column; /* Optional: Align content in a column if there are multiple items */
+}
+
+.signin_main h2 {
+    color: #4a83cd;
+    padding: 0 0 40px 0;
+}
+
+.back_to_home  {
+   
+    background: #d9d8dd;
+    width: 160px;
+    height:35px;
+    margin: 0px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bolder;
+    color:rgb(245, 242, 242);
+    text-align: center;
+    justify-content: center;
+}
+
+.signin_form_main {
+    background: rgb(188 208 233);
+    margin: 190px 200px 200px;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    align-content: center;
+
+    display: flex;
+    justify-content: center; /* Center content horizontally within the div */
+    align-items: center; /* Center content vertically within the div */
+    flex-direction: column; /* Optional: Align content in a column if there are multiple items */
+}
+
+
+.form-3{
+    padding:10px;
+}
+
+.form-3 label {
+    color: #4a83cd;
+    font-size: 24px;
+}
+
+.form-3 input {
+    color: #4a83cd;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: rgb(243, 239, 234);
+    width: 300px;
+    height: 35px; 
+}
+
+.form_login{
+    font-size:12px;
+}
+
+.signin_form_main p {
+    margin: 15px 0 10px 10px;
+    color:rgb(196, 71, 71);
+}
+
+.signin_form_main button{
+    color: white;
+    background: #4a83cd;
+    width: 150px;
+    height:50px;
+    margin:25px 150px;
+    font-size: 22px;
+}
+
+/* .form_login a {
+    color:#f4f4f5;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 150px;
+    background: #4a83cd;
+    justify-content: center;
+    width: 150px;
+} */
+
+.form_login a {
+    color: white;
+    background: #4a83cd;
+    width: 140px;
+    height:40px;
+    margin:1px 150px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+

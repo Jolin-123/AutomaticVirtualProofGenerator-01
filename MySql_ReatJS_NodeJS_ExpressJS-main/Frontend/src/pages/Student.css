@@ -1,0 +1,125 @@
+
+.colorBox{
+    width: 50px; 
+    height: 30px;
+    margin-bottom: 10px; 
+    font-size: 30px;
+}
+
+
+.colorBoxSmall{
+    width: 70px; 
+    height: 15px; 
+    margin-bottom: 10px; 
+}
+
+
+.btn-submit{
+    margin-top:25px;
+    padding: 10px 25px;
+    background:rgb(129, 171, 235);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    margin-bottom: 100px;
+}
+
+
+/* .add_order_element{
+    padding:3px;
+    color: #4a83cd;
+    font-weight: bolder;
+} */
+
+.add_order_table{
+    margin-left:100px;
+    padding: 4px 8px;
+}
+
+
+/* title style*/
+.add_order_title{
+    margin: 5px 0px 15px 0px;
+    padding: 4px 8px;
+}
+
+.order_list_title{
+
+    margin:15px;
+}
+
+
+.button-container {
+    display: flex; /* Make the container a flex container */
+    justify-content: space-around; /* Align buttons with equal space between them */
+    /* padding to make button box line disappear */
+    padding: 8px;
+}
+
+.btn {
+    /* Let the button adjust its height based on content */
+    padding: 5px 5px; /* padding for button size */
+    font-size: 10px;
+    border-radius: 8px;
+    display: inline-flex; /* Display buttons inline */
+    align-items: center; /* Center content vertically */
+    justify-content: center;
+    width:40px;
+    margin:2px; /* Center content vertically */
+    color:black; 
+}
+
+
+.btn-add {
+    /* background: rgb(128, 180, 248); */
+    background: rgb(94, 145, 211);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* background:rgb(80, 130, 5); */
+    /* Let the button adjust its height based on content */
+    padding: 5px 8px; /* Adjust padding for button size */
+    font-size: 18px;
+    font-weight:bold;
+    border-radius: 8px;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center content horizontally */
+    align-items: center;
+    margin:4px; /* Center content vertically */
+    color:rgb(245, 242, 245); 
+
+}
+.read {
+    background: #93e093;
+}
+
+.update{
+    background: rgb(131, 163, 219);
+}
+
+
+.delete{
+    background: rgb(247, 153, 153);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.custom-table th  {
+    padding: 10px;
+    
+}
+
+.custom-table td {
+    padding: 4px; 
+}
+
+.btn-add {
+    display: flex;
+    align-items: center;
+}
+
+
+.logotable_display {
+    margin-left: 30px;
+}
