@@ -2,7 +2,7 @@ import React from 'react'
 import mainImg from './images/mainImg.png';
 // import Sewing from './images/Sewing.png';
 import Thread from './images/Thread.png';
-import SewingThread from './images/SewingThread.png';
+// import SewingThread from './images/SewingThread.png';
 import { Link } from 'react-router-dom'
 
 function NewProduct() {
