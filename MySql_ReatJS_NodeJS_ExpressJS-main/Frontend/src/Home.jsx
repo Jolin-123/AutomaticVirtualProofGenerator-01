@@ -6,9 +6,8 @@ import folddingTT from './images/folddingTT.png';
 import hangingT from './images/hangingT.png';
 import hangingTgray from './images/hangingTgray.png';
 
-import './Snowfall.scss';
-import './SnowfallLarge.scss';
-
+import Snowfall from './Snowfall.scss';
+import SnowfallLarge from './SnowfallLarge.scss';
 
 
 
