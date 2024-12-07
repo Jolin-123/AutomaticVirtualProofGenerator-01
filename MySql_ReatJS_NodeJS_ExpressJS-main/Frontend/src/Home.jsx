@@ -6,9 +6,9 @@ import folddingTT from './images/folddingTT.png';
 import hangingT from './images/hangingT.png';
 import hangingTgray from './images/hangingTgray.png';
 
-import Snowfall from './Snowfall.scss';
-import SnowfallLarge from './SnowfallLarge.scss';
-
+// import Snowfall from './Snowfall.scss';
+// import SnowfallLarge from './SnowfallLarge.scss';
+import Snowfall from './Snowfall';
 
 
 function Home() {
@@ -16,7 +16,7 @@ function Home() {
     <div>
         {/* Home */}
         {/* <CookieCursor/> */}
-        <SnowfallLarge/>
+        {/* <SnowfallLarge/> */}
         <Snowfall/>
              <div>
             <header> 

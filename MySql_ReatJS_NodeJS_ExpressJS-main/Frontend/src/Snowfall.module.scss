@@ -1,0 +1,36 @@
+@use 'sass:math';
+
+body {
+  height: 100vh;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  filter: drop-shadow(0 0 10px white);
+}
+
+@function random_range($min, $max) {
+  $rand: random();
+  $random_range: $min + floor($rand * (($max - $min) + 1));
+  @return $random_range;
+}
+
+.snow {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+  opacity: 0;
+  animation: fall linear infinite;
+
+  &.falling {
+    animation-name: falling;
+  }
+
+  @keyframes falling {
+    from {
+      transform: translate(0, -10px);
+    }
+    to {
+      transform: translate(50px, 100vh);
+    }
+  }
+}
