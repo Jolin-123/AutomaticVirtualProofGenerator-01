@@ -9,7 +9,7 @@ import hangingTgray from './images/hangingTgray.png';
 // import Snowfall from './Snowfall.scss';
 // import SnowfallLarge from './SnowfallLarge.scss';
 // import Snowfall from './Snowfall.jsx';
-import Snowfall from './Snowfall.sass';
+// import Snowfall from './Snowfall.sass';
 
 function Home() {
   return (
@@ -17,7 +17,7 @@ function Home() {
         {/* Home */}
         {/* <CookieCursor/> */}
         {/* <SnowfallLarge/> */}
-        <Snowfall/>
+        {/* <Snowfall/> */}
              <div>
             <header> 
                 <button className="menu"> &#9776;</button>
